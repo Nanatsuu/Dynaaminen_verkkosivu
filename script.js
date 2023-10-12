@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const foodOfTheDayButton = document.getElementById("get-food-of-the-day");
     const foodInfo = document.getElementById("food-info");
     const foodOfTheDayText = document.querySelector("h1");
-    const apiKey = process.env.SPOONACULAR_API_KEY; // API-avaimen haku ympäristömuuttujasta
+    const apiKey = process.env.SPOONACULAR_API_KEY; // API-avaimen haku
 
     function displayFood(food) {
         foodInfo.innerHTML = `
